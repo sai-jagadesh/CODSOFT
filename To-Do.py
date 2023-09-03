@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 from tkinter import ttk
 
+#Tkinter Class, Initiation & Dimension
 class ToDoListApp:
     def __init__(self, root):
         self.root = root
@@ -29,6 +30,7 @@ class ToDoListApp:
         self.style = ttk.Style()
         self.style.configure("TButton", font=("Helvetica", 12))
 
+    #Getting Tasks from user
     def add_task(self):
         task = self.task_entry.get()
         if task:
@@ -38,6 +40,7 @@ class ToDoListApp:
         else:
             messagebox.showwarning("Warning", "Please enter a task!")
 
+    #Removing user task
     def remove_task(self):
         selected_task = self.task_list.curselection()
         if selected_task:
@@ -45,11 +48,12 @@ class ToDoListApp:
             del self.tasks[index]
             self.update_task_list()
 
-    def update_task_list(self):
+    def update_task_list(self): #Task Append/Update
         self.task_list.delete(0, tk.END)
         for task in self.tasks:
             self.task_list.insert(tk.END, task)
 
+#Main Initiation
 if __name__ == "__main__":
     print("Opening in a new window...")
     root = tk.Tk()
