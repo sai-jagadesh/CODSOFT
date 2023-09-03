@@ -2,11 +2,13 @@ import random
 import string
 import time as t
 
+#Password Format
 def generate_password(length):
     characters = string.ascii_letters + string.digits + string.punctuation
     password = ''.join(random.choice(characters) for _ in range(length))
     return password
 
+#Application Interface with Welcome Message
 def main():
     print("-"*45)
     print("Welcome to the Password Generator Application!")
