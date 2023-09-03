@@ -1,8 +1,4 @@
 def calculator():
-    """
-    A simple calculator that performs all arithmetic operations.
-    """
-
     while True:
         # Get the first number.
         first_number = float(input("Enter the first number: "))
