@@ -1,20 +1,14 @@
-import os
-import sys
-
-def resource_path(relative_path):
-    if hasattr(sys, '_MEIPASS'):
-        return os.path.join(sys._MEIPASS, relative_path)
-    return os.path.join(os.path.abspath("."), relative_path)
+import time
 print("Hello and welcome to Sai Jagadesh's Quiz Game! ")
 print("This quiz is based on GK & Space Science")
 print("This trivia contains 10 Question consisting of 1 mark each ! All the Best")
 print("NOTE: A small spelling mistake makes you lose points !")
-import time
+
 score = 0
 total_q = 1
 time.sleep(2.0)
 #Question 1
-ans = input("1. Amundsen, who was the first person to discover the South Pole, was the native of (norway/india/canada/sweden): ")
+ans = input("1. Amundsen, who was the first person to discover the South Pole, was the native of (Norway/India/Canada/Sweden): ")
 if ans.lower() == 'norway':
     score += 1
     print("Correct")
@@ -23,7 +17,7 @@ else:
 print("--------------------------------------------------------------------")
 #Question 2    
 time.sleep(2.0)
-ans = input("2. Pandit Shivkumar Sharma is related to(shennai/violin/veena/santoor): ")
+ans = input("2. Pandit Shivkumar Sharma is related to(Shennai/Violin/Veena/Santoor): ")
 if ans.lower() == 'santoor':
     score += 1
     print("Correct")
@@ -32,7 +26,7 @@ else:
 print("--------------------------------------------------------------------")
 #Question 3    
 time.sleep(2.0)
-ans = input("3. The trophy ‘Davis Cup’ is related to (baseball/football/tennis/rugby): ")
+ans = input("3. The trophy ‘Davis Cup’ is related to (Baseball/Football/Tennis/Rugby): ")
 if ans.lower() == 'tennis':
     score += 1
     print("Correct")
@@ -41,7 +35,7 @@ else:
 print("--------------------------------------------------------------------")
 #Question 4
 time.sleep(2.0)
-ans = input("4. The book, ‘Wealth of Nations,’ was written by (adam/david/karl/milton): ")
+ans = input("4. The book, ‘Wealth of Nations,’ was written by (Adam/David/Karl/Milton): ")
 if ans.lower() == 'adam':
     score += 1
     print("Correct")
@@ -58,15 +52,15 @@ else:
     print("Incorrect. The correct answer is Baidyanath !")    
 time.sleep(1.0)
 print("--------------------------------------------------------------------")
-print("You have sucessfully completed the GK QUIZ !! But wait Space quiz is there for you wait for 5 seconds.")
-time.sleep(5.0)
+print("You have sucessfully completed the GK QUIZ !! But wait Space quiz is there for you!")
+time.sleep(2.0)
 #Question 6    
 ans = input("6. Where are ISRO satellites made?(Short form of satellite center is enough):  ")
 if ans.lower() == 'isac':
     score += 1
     print("Correct")
 else:
-    print("Incorrect. The correct answer is ISAC or isac")
+    print("Incorrect. The correct answer is ISAC")
 print("--------------------------------------------------------------------")
 #Question 7    
 time.sleep(2.0)
@@ -105,7 +99,7 @@ else:
     print("Incorrect. The correct answer is 386 crores")
 print("--------------------------------------------------------------------")
 time.sleep(2.0)
-print("Do you know ?? \n Hardwork never fails - Just a quote")
+print("Do you know ?? \n Hard work never fails - Just a quote")
 time.sleep(2.0)
 print("Here comes your score !!")
 time.sleep(2.0)
