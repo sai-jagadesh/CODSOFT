@@ -1,5 +1,5 @@
 import random
-
+#Options
 def determine_winner(user_choice, computer_choice):
     if user_choice == computer_choice:
         return "tie"
@@ -9,12 +9,12 @@ def determine_winner(user_choice, computer_choice):
         return "user"
     else:
         return "computer"
-
+#Welcome Interface
 def main():
     print("Welcome to Rock, Paper, Scissors Game!")
 
-    user_score = 0
-    computer_score = 0
+    user_score = 0 #User Score Initiation
+    computer_score = 0 #Computer Score Initiation
 
     while True:
         print("\nChoose one: rock, paper, scissors")
@@ -29,8 +29,9 @@ def main():
         print(f"\nYou chose: {user_choice}")
         print(f"Computer chose: {computer_choice}")
 
-        result = determine_winner(user_choice, computer_choice)
-        
+        result = determine_winner(user_choice, computer_choice) #Winner Determine
+
+        #Result Declaration
         if result == "tie":
             print("It's a tie!")
         elif result == "user":
@@ -47,6 +48,6 @@ def main():
             print("Thank you for playing! Final scores:")
             print(f"Your Score: {user_score} | Computer Score: {computer_score}")
             break
-
+#Main Run
 if __name__ == "__main__":
     main()
