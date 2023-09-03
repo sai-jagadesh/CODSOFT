@@ -40,6 +40,9 @@ To run any of these projects, make sure you have Python installed on your system
 
 ## About Me
 
-I am a passionate programmer and aspiring software developer excited to be part of the CodeSoft Internship program. If you have any questions or suggestions, please feel free to contact me.
+I am a passionate programmer and aspiring software developer excited to be part of the CodeSoft Internship program. You can connect with me on [LinkedIn](https://www.linkedin.com/in/sai-jagadesh/) to learn more about my professional journey and stay updated on my latest projects.
+
+If you have any questions or suggestions, please feel free to contact me.
 
 Happy Coding!
+
