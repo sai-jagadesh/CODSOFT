@@ -12,8 +12,8 @@ Welcome to my CodeSoft Internship repository! Here, you'll find a collection of 
 
 ### 2. Quiz Game
 
-- Description: An interactive quiz game that tests your knowledge on various topics. Questions and answers are loaded from text files.
-- Features: Multiple-choice questions, scoring system, and category selection.
+- Description: An interactive quiz game that tests your knowledge of GK & Space Science.
+- Features: Multiple-choice questions and scoring system.
 - Usage: Execute `Quiz_Game.py` to start playing quizzes.
 
 ### 3. Rock Paper Scissors Game
