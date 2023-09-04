@@ -25,13 +25,13 @@ Welcome to my CodeSoft Internship repository! Here, you'll find a collection of 
 ### 4. Simple Calculator
 
 - Description: A basic calculator application with a graphical user interface (GUI). Perform simple arithmetic operations with ease.
-- Features: GUI with buttons for numbers and operators, real-time calculation display.
+- Features: GUI with buttons for numbers and operators, real-time calculation display, and we can use the keyboard to enter numbers on a calculator too.
 - Usage: Launch `Simple_Calculator.py` to use the calculator.
 
-### 5. To-Do List with GUI
+### 5. To-Do List
 
 - Description: A to-do list application with a graphical user interface. Easily manage and organize your tasks.
-- Features: Add, remove, and mark tasks as completed, save tasks to a file.
+- Features: Add and remove tasks that are done.
 - Usage: Start `To-Do.py` to manage your to-do list.
 
 ## Getting Started
